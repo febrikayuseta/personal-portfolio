@@ -6,7 +6,7 @@ export function Footer() {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.socialLinks}>
-          <a href="https://github.com/febrika" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+          <a href="https://github.com/febrikayuseta" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
             <Github className={styles.icon} size={18} />
             GitHub
           </a>
@@ -19,7 +19,7 @@ export function Footer() {
             <Linkedin className={styles.icon} size={18} />
             LinkedIn
           </a>
-          <a href="mailto:febrika@example.com" className={styles.socialLink}>
+          <a href="mailto:febrikayuseta@gmail.com" className={styles.socialLink}>
             <Mail className={styles.icon} size={18} />
             Email
           </a>

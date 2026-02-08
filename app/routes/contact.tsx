@@ -127,7 +127,7 @@ export default function Contact() {
             </p>
             <div className={styles.socialLinks}>
               <a
-                href="https://github.com/febrika"
+                href="https://github.com/febrikayuseta"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.socialLink}
@@ -150,11 +150,11 @@ export default function Contact() {
                   <span className={styles.socialLinkText}>Febrika Yuseta</span>
                 </div>
               </a>
-              <a href="mailto:febrika@example.com" className={styles.socialLink}>
+              <a href="mailto:febrikayuseta@gmail.com" className={styles.socialLink}>
                 <Mail size={24} className={styles.socialIcon} />
                 <div className={styles.socialLinkContent}>
                   <span className={styles.socialLinkTitle}>Email</span>
-                  <span className={styles.socialLinkText}>febrika@example.com</span>
+                  <span className={styles.socialLinkText}>febrikayuseta@gmail.com</span>
                 </div>
               </a>
             </div>
