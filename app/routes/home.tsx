@@ -24,7 +24,7 @@ export default function Home() {
         {/* Hero Section */}
         <section className={styles.hero}>
           <h1 className={styles.heroTitle}>Febrika Yuseta</h1>
-          <p className={styles.heroSubtitle}>Full-Stack Developer & UI/UX Enthusiast</p>
+          <p className={styles.heroSubtitle}>Front End Developer & UI/UX Enthusiast</p>
           <p className={styles.heroDescription}>
             Crafting elegant digital experiences through clean code and thoughtful design. Passionate about building
             scalable web applications that solve real-world problems.
@@ -44,7 +44,7 @@ export default function Home() {
           <h2 className={styles.sectionTitle}>About Me</h2>
           <div className={styles.aboutContent}>
             <p>
-              I'm a passionate full-stack developer with a keen eye for design and a commitment to creating exceptional
+              I'm a passionate Front End developer with a keen eye for design and a commitment to creating exceptional
               user experiences. With expertise spanning modern frontend frameworks to robust backend systems, I bring
               ideas to life through clean, maintainable code.
             </p>
