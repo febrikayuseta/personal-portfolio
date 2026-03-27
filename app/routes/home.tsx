@@ -12,7 +12,6 @@ export default function Home() {
 
   const skillsByCategory = {
     frontend: skills.filter((s) => s.category === "frontend"),
-    backend: skills.filter((s) => s.category === "backend"),
     tools: skills.filter((s) => s.category === "tools"),
     design: skills.filter((s) => s.category === "design"),
   };
@@ -44,14 +43,15 @@ export default function Home() {
           <h2 className={styles.sectionTitle}>About Me</h2>
           <div className={styles.aboutContent}>
             <p>
-              I'm a passionate Front End developer with a keen eye for design and a commitment to creating exceptional
-              user experiences. With expertise spanning modern frontend frameworks to robust backend systems, I bring
-              ideas to life through clean, maintainable code.
+              Front-End Developer enthusiast with a background in nursing and professional experience in administration and purchasing.
+              Currently building hands-on skills in HTML, CSS, JavaScript, and UI development through a Front-End Bootcamp.
+              Passionate about creating user-friendly and visually engaging interfaces, with strong attention to detail,
+              problem-solving abilities, and a commitment to writing clean, maintainable code.
             </p>
             <p style={{ marginTop: "var(--space-4)" }}>
-              My approach combines technical excellence with creative problem-solving, ensuring every project not only
-              meets requirements but exceeds expectations. I believe in continuous learning and staying current with
-              emerging technologies to deliver cutting-edge solutions.
+              I combine technical skills with creative thinking to deliver clean, maintainable code that not only meets requirements
+              but exceeds expectations. Committed to continuous learning, I stay up to date with emerging technologies to build modern,
+              high-quality web experiences.
             </p>
           </div>
         </section>

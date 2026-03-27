@@ -135,7 +135,7 @@ export default function Contact() {
                 <Github size={24} className={styles.socialIcon} />
                 <div className={styles.socialLinkContent}>
                   <span className={styles.socialLinkTitle}>GitHub</span>
-                  <span className={styles.socialLinkText}>@febrika</span>
+                  <span className={styles.socialLinkText}>@febrikayuseta</span>
                 </div>
               </a>
               <a

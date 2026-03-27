@@ -22,4 +22,15 @@ export const projects: Project[] = [
     demoUrl: "https://bebyelle.vercel.app/",
     featured: true,
   },
+  {
+    id: "2",
+    title: "TravelYuk",
+    description: "Travel agency platform for booking adventures, exploring beautiful destinations, and finding exclusive deals.",
+    longDescription:
+      "A comprehensive travel platform developed for booking your next playhouse adventure and world tours. Features include a landing page with popular destinations, curated travel packages, best price guarantees, and secure booking.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind CSS"],
+    imageUrl: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&h=600&fit=crop",
+    demoUrl: "https://travelingyuk.vercel.app/front-pages/landing-page",
+    featured: true,
+  },
 ];
