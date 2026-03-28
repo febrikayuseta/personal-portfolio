@@ -33,6 +33,11 @@ export default function Home() {
               <Link to="/projects">View My Work</Link>
             </Button>
             <Button asChild variant="outline" size="lg">
+              <a href="https://docs.google.com/document/d/1DhrOQF949TkMtTKHeTfA2N6ujcgMFeq-/edit?pli=1" target="_blank" rel="noopener noreferrer">
+                Download CV ATS
+              </a>
+            </Button>
+            <Button asChild variant="outline" size="lg">
               <Link to="/contact">Get In Touch</Link>
             </Button>
           </div>
