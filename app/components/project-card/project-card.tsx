@@ -29,7 +29,7 @@ export function ProjectCard({ project, className }: ProjectCardProps) {
           {project.demoUrl && (
             <a href={project.demoUrl} target="_blank" rel="noopener noreferrer" className={styles.link}>
               <ExternalLink size={16} className={styles.linkIcon} />
-              Live Demo
+              {project.demoLabel || "Live Demo"}
             </a>
           )}
           {project.githubUrl && (

@@ -6,6 +6,7 @@ export interface Project {
   tags: string[];
   imageUrl: string;
   demoUrl?: string;
+  demoLabel?: string;
   githubUrl?: string;
   featured: boolean;
 }
@@ -31,6 +32,18 @@ export const projects: Project[] = [
     tags: ["React", "TypeScript", "Next.js", "Tailwind CSS"],
     imageUrl: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&h=600&fit=crop",
     demoUrl: "https://travelingyuk.vercel.app/front-pages/landing-page",
+    featured: true,
+  },
+  {
+    id: "3",
+    title: "Video Editing Portfolio",
+    description: "Showcase of my video editing work including reels, transitions, and social media content creation.",
+    longDescription:
+      "A dedicated showcase of creative video editing projects. Featuring high-energy social media reels, seamless transitions, and engaging content created for various platforms using professional mobile editing tools.",
+    tags: ["CapCut", "Adobe Premiere Pro", "Video Editing", "Social Media Content"],
+    imageUrl: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=600&fit=crop",
+    demoUrl: "https://instagram.com/me.bebyfie",
+    demoLabel: "View on Instagram",
     featured: true,
   },
 ];

@@ -11,9 +11,10 @@ export default function Home() {
   const featuredProjects = projects.filter((p) => p.featured);
 
   const skillsByCategory = {
-    frontend: skills.filter((s) => s.category === "frontend"),
-    tools: skills.filter((s) => s.category === "tools"),
-    design: skills.filter((s) => s.category === "design"),
+    "IT": skills.filter((s) => s.category === "it"),
+    "Tools": skills.filter((s) => s.category === "tools"),
+    "Design": skills.filter((s) => s.category === "design"),
+    "Hard Skills": skills.filter((s) => s.category === "hardSkills"),
   };
 
   return (
@@ -67,9 +68,12 @@ export default function Home() {
           <p className={styles.sectionSubtitle}>A comprehensive toolkit for building modern web applications</p>
           <div className={styles.skillsGrid}>
             {Object.entries(skillsByCategory).map(([category, categorySkills]) => (
-              <div key={category} className={styles.skillCategory}>
+              <div
+                key={category}
+                className={`${styles.skillCategory} ${category === "Hard Skills" ? styles.hardSkillsCard : ""}`}
+              >
                 <h3 className={styles.skillCategoryTitle}>{category}</h3>
-                <div className={styles.skillsList}>
+                <div className={category === "Hard Skills" ? styles.skillsListGrid : styles.skillsList}>
                   {categorySkills.map((skill) => (
                     <span key={skill.name} className={styles.skillBadge}>
                       {skill.name}

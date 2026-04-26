@@ -88,10 +88,15 @@
 /* Skills Section */
 .skillsGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
   gap: var(--space-6);
   max-width: 900px;
+  width: 100%;
   margin: 0 auto;
+  padding: 0 var(--space-4);
+  box-sizing: border-box;
+  overflow-x: hidden;
+  justify-items: center; /* center cards */
 }
 
 .skillCategory {
@@ -99,6 +104,9 @@
   border: 1px solid var(--color-neutral-6);
   border-radius: var(--radius-3);
   padding: var(--space-5);
+  box-sizing: border-box;
+  width: auto;
+  max-width: 100%;
 }
 
 .skillCategoryTitle {
@@ -115,6 +123,14 @@
   gap: var(--space-2);
 }
 
+.skillsListGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-2);
+  max-width: 480px;
+  margin: 0 auto;
+}
+
 .skillBadge {
   font: var(--font-caption);
   padding: var(--space-2) var(--space-3);
@@ -123,6 +139,14 @@
   border-radius: var(--radius-2);
   font-weight: 500;
   border: 1px solid var(--color-neutral-5);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.hardSkillsCard {
+  grid-column: 2;
 }
 
 /* Projects Section */

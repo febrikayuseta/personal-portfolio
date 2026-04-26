@@ -18,9 +18,7 @@ export function Header() {
           <NavLink to="/contact" className={({ isActive }) => `${styles.navLink} ${isActive ? styles.active : ""}`}>
             Contact
           </NavLink>
-          <a href="https://docs.google.com/document/d/1DhrOQF949TkMtTKHeTfA2N6ujcgMFeq-/edit?pli=1" target="_blank" rel="noopener noreferrer" className={styles.navLink}>
-            CV ATS
-          </a>
+
         </nav>
       </div>
     </header>

@@ -1,30 +1,32 @@
 export interface Skill {
   name: string;
-  category: "frontend" | "tools" | "design";
+  category: "it" | "tools" | "design" | "hardSkills";
 }
 
 export const skills: Skill[] = [
-  // Frontend
-  { name: "React", category: "frontend" },
-  { name: "TypeScript", category: "frontend" },
-  { name: "JavaScript", category: "frontend" },
-  { name: "HTML/CSS", category: "frontend" },
-  { name: "Next.js", category: "frontend" },
-  { name: "Vue.js", category: "frontend" },
-  { name: "Tailwind CSS", category: "frontend" },
-  { name: "React Native", category: "frontend" },
+  // IT
+  { name: "HTML, CSS, JavaScript (Fundamentals)", category: "it" },
+  { name: "Responsive Web Design", category: "it" },
+  { name: "Data Entry & Reporting", category: "it" },
+  { name: "Git & Version Control (Basic)", category: "it" },
 
   // Tools
-  { name: "Git", category: "tools" },
-  { name: "Docker", category: "tools" },
-  { name: "AWS", category: "tools" },
-  { name: "Webpack", category: "tools" },
-  { name: "Jest", category: "tools" },
-  { name: "CI/CD", category: "tools" },
+  { name: "Microsoft Office 365 (Word, Excel, PowerPoint)", category: "tools" },
+  { name: "Accurate (Intermediate)", category: "tools" },
+  { name: "Adobe Premiere Pro (Basic)", category: "tools" },
+  { name: "CapCut (Intermediate)", category: "tools" },
 
   // Design
-  { name: "Figma", category: "design" },
-  { name: "UI/UX Design", category: "design" },
-  { name: "Responsive Design", category: "design" },
-  { name: "Accessibility", category: "design" },
+  { name: "Adobe Photoshop (Intermediate)", category: "design" },
+  { name: "Basic UI/UX & Visual Editing", category: "design" },
+
+  // Hard Skills
+  { name: "Patient Assessment", category: "hardSkills" },
+  { name: "Vital Signs Monitoring", category: "hardSkills" },
+  { name: "Wound Care", category: "hardSkills" },
+  { name: "Medication Administration", category: "hardSkills" },
+  { name: "Purchasing Administration", category: "hardSkills" },
+  { name: "Inventory Management", category: "hardSkills" },
+  { name: "Data Entry", category: "hardSkills" },
+  { name: "Report Documentation", category: "hardSkills" },
 ];
