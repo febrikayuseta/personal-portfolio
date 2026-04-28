@@ -24,10 +24,11 @@ export default function Home() {
         {/* Hero Section */}
         <section className={styles.hero}>
           <h1 className={styles.heroTitle}>Febrika Yuseta</h1>
-          <p className={styles.heroSubtitle}>Front End Developer & UI/UX Enthusiast</p>
+          <p className={styles.heroSubtitle}>Creative Web Designer | Photo & Video Editor</p>
           <p className={styles.heroDescription}>
-            Crafting elegant digital experiences through clean code and thoughtful design. Passionate about building
-            scalable web applications that solve real-world problems.
+            Bringing ideas to life through creative web design and visual content.
+            <br></br>
+            Focused on crafting impactful photo and video experiences.
           </p>
           <div className={styles.heroCta}>
             <Button asChild size="lg">
@@ -49,15 +50,10 @@ export default function Home() {
           <h2 className={styles.sectionTitle}>About Me</h2>
           <div className={styles.aboutContent}>
             <p>
-              Front-End Developer enthusiast with a background in nursing and professional experience in administration and purchasing.
-              Currently building hands-on skills in HTML, CSS, JavaScript, and UI development through a Front-End Bootcamp.
-              Passionate about creating user-friendly and visually engaging interfaces, with strong attention to detail,
-              problem-solving abilities, and a commitment to writing clean, maintainable code.
+              I’m an adaptable and motivated professional with a background in healthcare, administration, and purchasing, bringing strong organizational skills, attention to detail, and the ability to thrive in fast-paced environments. I have strong communication and coordination abilities, and I approach every task with responsibility, precision, and a proactive mindset.
             </p>
             <p style={{ marginTop: "var(--space-4)" }}>
-              I combine technical skills with creative thinking to deliver clean, maintainable code that not only meets requirements
-              but exceeds expectations. Committed to continuous learning, I stay up to date with emerging technologies to build modern,
-              high-quality web experiences.
+              Currently, I’m focusing on creative work in web design, photo editing, and video production. I’m passionate about creating visually engaging content and meaningful digital experiences, combining creativity with problem-solving skills to deliver impactful results. I’m committed to continuous learning and continuously exploring new tools and trends to produce modern, high-quality visual content.
             </p>
           </div>
         </section>
@@ -65,7 +61,7 @@ export default function Home() {
         {/* Skills Section */}
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Skills & Expertise</h2>
-          <p className={styles.sectionSubtitle}>A comprehensive toolkit for building modern web applications</p>
+          <p className={styles.sectionSubtitle}>A versatile skill set across IT, design, and multimedia production</p>
           <div className={styles.skillsGrid}>
             {Object.entries(skillsByCategory).map(([category, categorySkills]) => (
               <div

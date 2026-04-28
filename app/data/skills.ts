@@ -8,17 +8,18 @@ export const skills: Skill[] = [
   { name: "HTML, CSS, JavaScript (Fundamentals)", category: "it" },
   { name: "Responsive Web Design", category: "it" },
   { name: "Data Entry & Reporting", category: "it" },
-  { name: "Git & Version Control (Basic)", category: "it" },
+  { name: "Git & Version Control", category: "it" },
 
   // Tools
   { name: "Microsoft Office 365 (Word, Excel, PowerPoint)", category: "tools" },
-  { name: "Accurate (Intermediate)", category: "tools" },
-  { name: "Adobe Premiere Pro (Basic)", category: "tools" },
-  { name: "CapCut (Intermediate)", category: "tools" },
+  { name: "Accurate (Accounting System)", category: "tools" },
+  { name: "Adobe Premiere Pro", category: "tools" },
+  { name: "CapCut", category: "tools" },
 
   // Design
-  { name: "Adobe Photoshop (Intermediate)", category: "design" },
-  { name: "Basic UI/UX & Visual Editing", category: "design" },
+  { name: "Adobe Photoshop", category: "design" },
+  { name: "Canva", category: "design" },
+  { name: "Figma (Basic UI/UX & Visual Design)", category: "design" },
 
   // Hard Skills
   { name: "Patient Assessment", category: "hardSkills" },
