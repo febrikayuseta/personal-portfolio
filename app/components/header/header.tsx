@@ -1,5 +1,6 @@
 import { NavLink } from "react-router";
 import styles from "./header.module.css";
+import { ColorSchemeToggle } from "~/components/ui/color-scheme-toggle/color-scheme-toggle";
 
 export function Header() {
   return (
@@ -18,7 +19,7 @@ export function Header() {
           <NavLink to="/contact" className={({ isActive }) => `${styles.navLink} ${isActive ? styles.active : ""}`}>
             Contact
           </NavLink>
-
+          <ColorSchemeToggle />
         </nav>
       </div>
     </header>
